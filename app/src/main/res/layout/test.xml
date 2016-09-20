@@ -1,0 +1,152 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res/android"
+   android:background="@drawable/newbg"
+    android:id="@+id/LayoutView"
+    android:layout_height="match_parent"
+    android:scaleType="fitXY"
+    android:orientation="vertical">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.38"
+    android:gravity="center">
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:gravity="center">
+       >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:gravity="center">
+
+
+        <EditText
+
+            android:textColor="@color/white"
+            android:background="@null"
+            android:textColorHint="#FFFFFF"
+            android:gravity="center"
+            android:id="@+id/editUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="User name"
+
+            android:layout_gravity="center_horizontal" />
+       </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.75"
+            android:gravity="center">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.22"
+                android:gravity="center"
+               >
+                <EditText
+                    android:textColor="@color/white"
+                    android:background="@null"
+                    android:textColorHint="#FFFFFF"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/editUserPassword"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:layout_gravity="center_horizontal" />
+
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.78"
+                android:gravity="center"
+                >
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.40"
+                    android:gravity="center"
+                    >
+                    <ImageButton
+                        android:padding="7dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/login"
+                        android:src="@drawable/button"
+                        android:background = "@null"/>
+
+                    <TextView
+
+                        android:layout_gravity="right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Forgot Password?"
+                        android:paddingRight="26dp"
+
+                        android:textColor="@color/white"
+                        android:textStyle="bold"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.64"
+                    android:gravity="center"
+                    >
+                    <ImageButton
+                        android:padding="7dp"
+                        android:layout_width="wrap_content"
+                        android:id="@+id/newu"
+                        android:layout_height="wrap_content"
+                        android:background = "@null"
+
+                        android:src="@drawable/button"/>
+                </LinearLayout>
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

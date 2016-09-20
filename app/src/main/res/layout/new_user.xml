@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:layout_width="fill_parent"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Name"
+        />
+    <EditText
+
+        android:layout_width="match_parent"
+        android:textColorHint="#FFFFFF"
+        android:gravity="center"
+        android:hint="Enter name"
+        android:layout_height="wrap_content"
+        android:id="@+id/EnterUserName"
+        android:layout_margin="10dp"
+
+        android:layout_below="@+id/Name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/select_blood_group"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/UserBloodGroup"
+        android:layout_below="@+id/EnterUserName"
+        />
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditUserBloodGroup"
+        android:layout_margin="10dp"
+
+        android:layout_below="@+id/UserBloodGroup"/>
+    <TextView
+        android:layout_width="wrap_content"
+
+        android:text="@string/emailid"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailid"
+        android:layout_below="@+id/EditUserBloodGroup"
+        />
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EnterUserEmailId"
+        android:layout_margin="10dp"
+
+        android:layout_below="@+id/emailid"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/password"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EnterUserEmailId"
+        android:id="@+id/UserPassword"/>
+
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/setUserPassword"
+        android:layout_below="@+id/UserPassword"
+        android:layout_margin="10dp"
+
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/create_account"
+        android:id="@+id/createAccount"
+        android:layout_below="@+id/setUserPassword"
+        android:layout_marginRight="10mm"
+        android:layout_marginLeft="10mm"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>

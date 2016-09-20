@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "906574608605",
+    "firebase_url": "https://healthcare-df667.firebaseio.com",
+    "project_id": "healthcare-df667",
+    "storage_bucket": "healthcare-df667.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906574608605:android:5329641cf3c305ee",
+        "android_client_info": {
+          "package_name": "ongraph.com.blooddonate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906574608605-749khm7qirpfaseo832ifrm9g21heka5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmUZ3OE3EXFDfEP6IOU3Lb9ewnW1EzI3I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
